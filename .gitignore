@@ -1,0 +1,17 @@
+/.metadata/
+/.recommenders/
+# Compiled class file
+*.class
+
+# Log file
+*.log
+.classpath
+.project
+.settings
+target
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+Servers
