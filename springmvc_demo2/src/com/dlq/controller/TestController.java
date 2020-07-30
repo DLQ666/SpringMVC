@@ -57,5 +57,4 @@ public class TestController {
 		System.out.println("id:"+id+", username="+username);
 		return "success";
 	}
-	
 }
