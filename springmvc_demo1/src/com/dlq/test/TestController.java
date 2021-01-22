@@ -10,7 +10,7 @@ public class TestController {
 	 * 假设：localhost:8080/springmvc_demo1/hello
 	 * @return
 	 */
-	@RequestMapping("hello")
+	@RequestMapping("/hello")
 	public String hello() {
 		System.out.println("SUCCESS");
 		return "success";

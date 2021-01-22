@@ -17,7 +17,8 @@
             <c:if test="${empty emp.id }" var="flag"></c:if>
             <c:if test="${!flag }">
                 <form:hidden path="id"/>
-                <input type="hidden" name="_method" value="" />
+                <input type="hidden" name="_method" value="PUT" />
+                
             </c:if>
             
             <table>
